@@ -64,7 +64,7 @@ body{
     margin-top:20px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.4em;
 }
 
@@ -171,6 +171,7 @@ body{
 
 p{
     color: #333;
+    font-size: 15.5px;
 }
 
 .about .box{
@@ -195,8 +196,20 @@ p{
     font-size: 16px;
 }
 
+.skills .box{
+    position: relative;
+    width: 100%;
+    /* display: grid; */
+    /* grid-template-columns: 150px 1fr; */
+    /* justify-content:center; */
+    /* align-items:center; */
+}
 
-
+.skills .box p span{
+    text-transform: uppercase;
+    color: #03a9f4;
+    font-weight: 500;
+}
 
 
 /* Fim do style da parte direita. */
