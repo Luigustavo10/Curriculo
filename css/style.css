@@ -196,6 +196,12 @@ p{
     font-size: 16px;
 }
 
+.about .box .text span{
+    text-transform: uppercase;
+    color: #03a9f4;
+    /* font-size: 16px; */
+}
+
 .skills .box{
     position: relative;
     width: 100%;
