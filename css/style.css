@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Roboto', sans-serif;}
 
 body{
     background: lightblue;
@@ -65,7 +65,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
-    line-height: 1.6em;
+    line-height: 1.8em;
 }
 
 .profileText h2 span{
@@ -171,7 +171,8 @@ body{
 
 p{
     color: #333;
-    font-size: 15.5px;
+    font-size: 17px;
+    line-height: 1.5rem;
 }
 .exp-prof {
     width: 100%;
