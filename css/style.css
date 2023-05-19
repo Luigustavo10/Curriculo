@@ -65,7 +65,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
-    line-height: 1.4em;
+    line-height: 1.6em;
 }
 
 .profileText h2 span{
@@ -173,7 +173,39 @@ p{
     color: #333;
     font-size: 15.5px;
 }
+.exp-prof {
+    width: 100%;
+    overflow: hidden;
+    /* Limpa o float */
+}
 
+img {
+    float: left;
+    /* Posiciona a imagem à esquerda */
+    margin-right: 10px;
+    /* Adapte a margem conforme necessário */
+    margin-top: 15px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.text {
+    overflow: hidden;
+    /* Limpa o float */
+}
+
+h3,
+p {
+    margin: 0;
+    /* Remove as margens padrão */
+}
+.text p span{
+    text-transform: uppercase;
+    /* color: #03a9f4; */
+    font-weight: 500;
+    font-size: 13px;
+}
+  
 .about .box{
     display: flex;
     flex-direction: row;
